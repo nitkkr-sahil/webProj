@@ -9,6 +9,7 @@ const routes = require('./routes/main')
 const Detail = require("./models/Detail")
 const Slider = require('./models/Slider');
 const Service = require("./models/Service");
+const port = process.env.PORT || 8000;
 
 app.use(bodyParser.urlencoded({
     extended: true
@@ -112,8 +113,10 @@ mongoose.connect("mongodb://localhost:27017/ieiweb", () => {
 
 })
 
-
-
-app.listen(process.env.PORT | 5556, () => {
+app.listen(port, () => {
     console.log("server started");
 });
+//old code bfore heroku
+// app.listen(process.env.PORT | 5556, () => {
+//     console.log("server started");
+// });
