@@ -38,7 +38,7 @@ mongoose.connect("mongodb://localhost:27017/ieiweb", () => {
     //         link: 'Read..',
     //     }
     // ])
-
+    // this is i testing
     // Slider.create([
     //     {
     //         title: 'learn java in very easy manner',
