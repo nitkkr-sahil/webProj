@@ -37,6 +37,18 @@ routes.get("/gallery", async (req, res) => {
     })
 })
 
+
+routes.get("/team", async (req, res) => {
+    const details = await Detail.findById({ "_id": "626ce2073806108e035dd26e" })
+    const slides = await Slider.find()
+    res.render("team", {
+        details: details,
+        slides: slides
+    })
+})
+
+
+
 //process contact form
 routes.post("/process-contact-form", async (request, response) => {
     console.log(request.body);
