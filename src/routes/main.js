@@ -5,6 +5,8 @@ const async = require("hbs/lib/async")
 const Contact = require("../models/Contact")
 
 
+
+
 const Detail = require("../models/Detail")
 const Service = require("../models/Service")
 const Slider = require("../models/Slider")
