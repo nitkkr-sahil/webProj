@@ -2,7 +2,7 @@
   "name": "ieikarnal",
   "version": "1.0.0",
   "description": "This is Project for IEI Center Karnal",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/app.js -e js,hbs"
