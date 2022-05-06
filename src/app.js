@@ -11,7 +11,7 @@ const Service = require("./models/Service");
 const port = process.env.PORT || 8000;
 
 
-const dbUrl = "mongodb+srv://pandu1115:HyJ82gWl2JVGYMbD@cluster0.mohha.mongodb.net/ieiweb?retryWrites=true&w=majority"
+const dbUrl = "mongodb+srv://username:<password>@cluster0.mohha.mongodb.net/ieiweb?retryWrites=true&w=majority"
 
 const connectionParams = {
     useNewUrlParser: true,
